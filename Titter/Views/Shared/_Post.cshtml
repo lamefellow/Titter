@@ -50,7 +50,10 @@
         @if (isAuthor)
         {
             <span> | </span>
-            <form class="inline-form" asp-controller="Posts" asp-action="Delete" asp-route-id="@Model.Id" method="post">
+            <form class="inline-form" asp-controller="Posts" asp-action="Delete" asp-route-id="@Model.Id" method="post"
+                  hx-post="@Url.Action("Delete", "Posts", new { id = Model.Id })"
+                  hx-target="closest .post"
+                  hx-swap="delete">
                 <button type="submit" class="icon" aria-label="Delete post"></button>
             </form>
         }

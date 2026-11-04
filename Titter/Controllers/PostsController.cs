@@ -110,6 +110,7 @@ public class PostsController : Controller
     
     [HttpPost]
     [Authorize]
+    [ValidateAntiForgeryToken]
     public async Task<IActionResult> ToggleLike(string id)
     {
         var userId = _userManager.GetUserId(User);
