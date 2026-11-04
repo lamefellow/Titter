@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Titter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e95cb3f08d77d6dad60f2cd8323d0db080eed9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7481573a64e6a0998ae3dec1b4b31e7ad5c9cf2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Titter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Titter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

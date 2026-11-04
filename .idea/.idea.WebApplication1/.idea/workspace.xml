@@ -14,7 +14,41 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f466c041-b797-453f-a5ff-4fe1c67be416" name="Changes" comment="" />
+    <list default="true" id="f466c041-b797-453f-a5ff-4fe1c67be416" name="Changes" comment="Unver">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter.Infrastructure/bin/Release/net10.0/Titter.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Titter.Infrastructure/bin/Release/net10.0/Titter.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter.Infrastructure/bin/Release/net10.0/Titter.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Titter.Infrastructure/bin/Release/net10.0/Titter.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/Titter.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/Titter.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/Titter.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/Titter.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/Titter.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/Titter.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/Titter.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/Titter.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/Titter.Infrastructure.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/Titter.Infrastructure.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/ref/Titter.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/ref/Titter.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/refint/Titter.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Titter.Infrastructure/obj/Release/net10.0/refint/Titter.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Titter.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/bin/Release/net10.0/Titter.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/bin/Release/net10.0/Titter.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/bin/Release/net10.0/Titter.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/bin/Release/net10.0/Titter.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/bin/Release/net10.0/Titter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/bin/Release/net10.0/Titter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/bin/Release/net10.0/Titter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/bin/Release/net10.0/Titter.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/bin/Release/net10.0/Titter.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/bin/Release/net10.0/Titter.staticwebassets.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/Titter.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/Titter.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/Titter.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/Titter.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/Titter.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/Titter.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/Titter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/Titter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/Titter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/Titter.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/Titter.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/Titter.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/rbcswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/rbcswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/ref/Titter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/ref/Titter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/refint/Titter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/refint/Titter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/rjimswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/rjimswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/Release/net10.0/staticwebassets.build.json.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/Release/net10.0/staticwebassets.build.json.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titter/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Titter/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +69,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -88,61 +123,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0099332526719202" />
-      <entry key="MS500" value="1.8636772485537068" />
-      <entry key="S2" value="5.644225563692313" />
-      <entry key="S5" value="10.865599601081493" />
-      <entry key="S10" value="14.720095680435538" />
-      <entry key="S30" value="18.61083485366843" />
-      <entry key="S60" value="20.702395258597726" />
-      <entry key="M2" value="24.336867877700563" />
-      <entry key="M5" value="30.997239371498186" />
-      <entry key="M10" value="37.39401451930323" />
-      <entry key="M15" value="44.860799521215604" />
-      <entry key="M30" value="79.91438183301251" />
-      <entry key="H1" value="167.4807771740707" />
-      <entry key="H2" value="333.8575108872462" />
-      <entry key="H4" value="601.591120147429" />
-      <entry key="D1" value="1324.9587160671008" />
-      <entry key="W1" value="1575.885774822333" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000016907187" />
+      <entry key="S10" value="1.0001235435472053" />
+      <entry key="S30" value="1.2578654821558377" />
+      <entry key="S60" value="3.4930562998246324" />
+      <entry key="M2" value="11.140064359831271" />
+      <entry key="M5" value="30.932900337952137" />
+      <entry key="M10" value="48.85787240286853" />
+      <entry key="M15" value="61.12159435351376" />
+      <entry key="M30" value="99.53097460766921" />
+      <entry key="H1" value="187.34296325865202" />
+      <entry key="H2" value="354.24504727988233" />
+      <entry key="H4" value="623.797614808014" />
+      <entry key="D1" value="1356.5623834197613" />
+      <entry key="W1" value="1611.9692809808907" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.9222584248882548E-124" />
-      <entry key="S2" value="1.3074644197912443E-31" />
-      <entry key="S5" value="4.4516207093438334E-13" />
-      <entry key="S10" value="7.28462870284945E-7" />
-      <entry key="S30" value="0.015031936331419238" />
-      <entry key="S60" value="0.20568015682635818" />
-      <entry key="M2" value="0.7807832174818888" />
-      <entry key="M5" value="1.8186308495817984" />
-      <entry key="M10" value="2.6615901684143926" />
-      <entry key="M15" value="3.5086668674228547" />
-      <entry key="M30" value="8.073714892440993" />
-      <entry key="H1" value="23.286956192442958" />
-      <entry key="H2" value="58.22520781644897" />
-      <entry key="H4" value="117.38000962874648" />
-      <entry key="D1" value="273.78090269137715" />
-      <entry key="W1" value="326.870856958199" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.872611823685265E-107" />
+      <entry key="S5" value="2.736199689551212E-43" />
+      <entry key="S10" value="5.711132529446887E-22" />
+      <entry key="S30" value="1.3860743714405327E-7" />
+      <entry key="S60" value="6.245657975187652E-4" />
+      <entry key="M2" value="0.043025246909353616" />
+      <entry key="M5" value="0.5704554246957503" />
+      <entry key="M10" value="1.4906640023399582" />
+      <entry key="M15" value="2.38397221449587" />
+      <entry key="M30" value="6.655074719299762" />
+      <entry key="H1" value="21.14231258817366" />
+      <entry key="H2" value="55.47929440131685" />
+      <entry key="H4" value="114.57875043705036" />
+      <entry key="D1" value="272.6809559731679" />
+      <entry key="W1" value="326.6829271539096" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9960283420827448" />
-      <entry key="MS500" value="1.8582016153334182" />
-      <entry key="S2" value="5.639402241003183" />
-      <entry key="S5" value="10.861675149966429" />
-      <entry key="S10" value="14.71738371683147" />
-      <entry key="S30" value="18.624012227866544" />
-      <entry key="S60" value="20.902689619663036" />
-      <entry key="M2" value="25.108202508411182" />
-      <entry key="M5" value="32.80726274025046" />
-      <entry key="M10" value="40.049130999485406" />
-      <entry key="M15" value="48.36314199720802" />
-      <entry key="M30" value="87.97910555932759" />
-      <entry key="H1" value="190.75372012852745" />
-      <entry key="H2" value="392.06497508544936" />
-      <entry key="H4" value="718.9534670803985" />
-      <entry key="D1" value="1598.7329180934112" />
-      <entry key="W1" value="1902.755494264941" />
+      <entry key="MS100" value="0.9726549474122855" />
+      <entry key="MS500" value="0.9944701686732144" />
+      <entry key="S2" value="0.9986146661010289" />
+      <entry key="S5" value="0.9994456376620386" />
+      <entry key="S10" value="0.9998462943059409" />
+      <entry key="S30" value="1.257732361056464" />
+      <entry key="S60" value="3.493275617952777" />
+      <entry key="M2" value="11.181763481389961" />
+      <entry key="M5" value="31.49985088641735" />
+      <entry key="M10" value="50.34436153665893" />
+      <entry key="M15" value="63.50086316688474" />
+      <entry key="M30" value="106.17841253886732" />
+      <entry key="H1" value="208.47243439908178" />
+      <entry key="H2" value="409.70737389468695" />
+      <entry key="H4" value="738.3590931857551" />
+      <entry key="D1" value="1629.2366604452675" />
+      <entry key="W1" value="1938.6510705284868" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -245,7 +280,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Recommiting because Github is weird (it's probably my error)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recommiting because Github is weird (it's probably my error)" />
+    <MESSAGE value="One unversioned file" />
+    <option name="LAST_COMMIT_MESSAGE" value="One unversioned file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

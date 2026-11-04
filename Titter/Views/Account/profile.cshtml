@@ -18,7 +18,7 @@
     }
 </div>
 
-@if (Model.Posts.Count == 20)
+@if (Model.Posts.Count() == 20)
 {
     <a asp-action="Profile" asp-route-username="@Model.Username" asp-route-page="@(page + 1)">Load more</a>
 }

@@ -5,6 +5,7 @@ namespace Titter.Infrastructure.Repositories;
 public interface IPostRepository
 {
     Task<IEnumerable<Post>> GetPostsAsync();
+    Task<IEnumerable<Post>> GetPostsByUserAsync(string id, int page, int pageSize);
     Task<IEnumerable<Post>> GetPostsPageAsync(int page, int pageSize);
     Task<Post?> GetPostAsync(string id);
     Task<Post> AddPostAsync(Post post);

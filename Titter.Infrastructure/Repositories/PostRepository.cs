@@ -24,6 +24,21 @@ public class PostRepository : IPostRepository
             .ToListAsync();
     }
 
+    public async Task<IEnumerable<Post>> GetPostsByUserAsync(string id, int page, int pageSize)
+    {
+        return await _context.Posts
+            .Where(p => p.ParentPostId == null)
+            .Where(p => p.UserId == id)
+            .Include(p => p.User)
+            .Include(p => p.Replies)
+            .Include(p => p.Likes)
+            .OrderByDescending(p => p.IsPinned)
+            .ThenByDescending(p => p.CreatedAt)
+            .Skip((page - 1) * pageSize)
+            .Take(pageSize)
+            .ToListAsync();
+    }
+
     public async Task<IEnumerable<Post>> GetPostsPageAsync(int page, int pageSize)
     {
         return await _context.Posts

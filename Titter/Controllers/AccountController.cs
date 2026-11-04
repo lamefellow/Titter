@@ -29,12 +29,7 @@ public class AccountController : Controller
         var user = await _userManager.FindByNameAsync(username);
         if (user == null) return NotFound();
 
-        var allPosts = await _postRepository.GetPostsAsync();
-        var userPosts = allPosts
-            .Where(p => p.UserId == user.Id)
-            .Skip((page - 1) * pageSize)
-            .Take(pageSize)
-            .ToList();
+        var userPosts = await _postRepository.GetPostsByUserAsync(user.Id, page, pageSize);
 
         var viewModel = new UserProfileViewModel
         {
