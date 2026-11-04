@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Titter", "Titter\Titter.csproj", "{D0E93AEB-008E-419C-AB10-2F0BE1105B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Titter.Infrastructure", "Titter.Infrastructure\Titter.Infrastructure.csproj", "{01711B7B-E73D-4288-90EE-9701763D657A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0E93AEB-008E-419C-AB10-2F0BE1105B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E93AEB-008E-419C-AB10-2F0BE1105B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E93AEB-008E-419C-AB10-2F0BE1105B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E93AEB-008E-419C-AB10-2F0BE1105B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01711B7B-E73D-4288-90EE-9701763D657A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01711B7B-E73D-4288-90EE-9701763D657A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01711B7B-E73D-4288-90EE-9701763D657A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01711B7B-E73D-4288-90EE-9701763D657A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

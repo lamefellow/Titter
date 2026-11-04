@@ -1,0 +1,52 @@
+@using System.Security.Claims
+@model Titter.Infrastructure.Models.Post
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "thread";
+    
+    var root = Model.ParentPost ?? Model;
+    var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+    var isOp = currentUserId != null && root.UserId == currentUserId;
+    var canReply = !root.Locked || isOp;
+}
+
+@if (canReply)
+{
+    <div class="composer">
+        <form asp-controller="Posts" asp-action="AddReply" method="post">
+            <input type="hidden" name="parentPostId" value="@Model.Id" />
+            <textarea name="Content" id="content" rows="2" maxlength="1000" placeholder="Post a reply." required></textarea>
+            <div class="composer-footer">
+                <span id="counter" class="smol">1000</span>
+                <button type="submit" id="post-btn">Reply</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="~/js/composer.js"></script>
+}
+else
+{
+    <p><span class="smol">This thread is locked. Only the original poster can reply.</span></p>
+}
+    
+@if (isOp)
+{
+    <p>
+        <a href="#" onclick="document.getElementById('lock-form').submit(); return false;">
+            @(root.Locked ? "Unlock this thread" : "Lock this thread")
+        </a>
+        <form id="lock-form" asp-controller="Posts" asp-action="ToggleLock" asp-route-id="@root.Id" method="post" style="display:none;"></form>
+    </p>
+}
+<p><span class="smol">Thread / Post ID: @Model.Id</span></p>
+
+<div class="posts-feed">
+    <partial name="_Post" model="Model"/>
+
+    @foreach (var reply in Model.Replies)
+    {
+        <partial name="_Post" model="reply"/>
+    }
+</div>

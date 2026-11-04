@@ -1,0 +1,37 @@
+@model IEnumerable<Titter.Infrastructure.Models.Post>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "timeline";
+    var page = (int)(ViewData["Page"] ?? 1);
+}
+
+@if (User.Identity?.IsAuthenticated == true)
+{
+    <div class="composer">
+        <form asp-controller="Posts" asp-action="Create" method="post">
+            <textarea name="Content" id="content" rows="2" maxlength="1000" placeholder="Come on, say something." required></textarea>
+            <div class="composer-footer">
+                <span id="counter" class="smol">1000</span>
+                <button type="submit" id="post-btn">Post</button>
+                <label class="smol">
+                    <input type="checkbox" name="LockReplies" value="true" /> Lock
+                </label>
+            </div>
+        </form>
+    </div>
+        
+    <script src="~/js/composer.js"></script>
+}
+    
+<div class="posts-feed">
+    @foreach (var post in Model)
+    {
+        <partial name="_Post" model="post"/>
+    }
+</div>
+
+@if (Model.Count() == 20)
+{
+    <a asp-action="Index" asp-route-page="@(page + 1)">Load more</a>
+}

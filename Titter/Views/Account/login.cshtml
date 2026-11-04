@@ -1,0 +1,26 @@
+@using Titter.Views.Shared
+@model Titter.ViewModels.LoginViewModel
+
+@{
+    Layout = "_Layout";
+    ViewData["HideAuth"] = true;
+    ViewData["Title"] = "log in";
+}
+
+<h2>Log in</h2>
+
+<form asp-action="Login" method="post">
+    <div class="form-field">
+        <label>Username</label>
+        <input asp-for="Username"/>
+    </div>
+
+    <div class="form-field">
+        <label>Password</label>
+        <input asp-for="Password" type="password"/>
+    </div>
+
+    <button type="submit">Sign In</button>
+</form>
+
+<p>Don't have an account? <a asp-action="Register">Register!</a></p>

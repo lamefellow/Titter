@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_11_4_26,_12_18 PM_[Changes]" date="1793787516009" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/shelf/Uncommitted_changes_before_Update_at_11_4_26,_12_18 PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 11/4/26, 12:18 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Titter/obj/Release/net10.0/Titter.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="Titter/obj/Release/net10.0/Titter.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/shelf/Uncommitted_changes_before_Update_at_11_4_26,_12_18 PM_[Changes]/Titter.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Titter.Infrastructure/obj/Release/net10.0/Titter.Infrastructure.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="Titter.Infrastructure/obj/Release/net10.0/Titter.Infrastructure.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/shelf/Uncommitted_changes_before_Update_at_11_4_26,_12_18 PM_[Changes]/Titter.Infrastructure.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Titter/obj/Release/net10.0/Titter.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Titter/obj/Release/net10.0/Titter.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/shelf/Uncommitted_changes_before_Update_at_11_4_26,_12_18 PM_[Changes]/Titter.csproj.AssemblyReference.cache" />
+  </binary>
+</changelist>

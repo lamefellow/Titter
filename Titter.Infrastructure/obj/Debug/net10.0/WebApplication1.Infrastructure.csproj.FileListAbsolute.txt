@@ -1,0 +1,14 @@
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/bin/Debug/net10.0/WebApplication1.Infrastructure.deps.json
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/bin/Debug/net10.0/WebApplication1.Infrastructure.runtimeconfig.json
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/bin/Debug/net10.0/WebApplication1.Infrastructure.dll
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/bin/Debug/net10.0/WebApplication1.Infrastructure.pdb
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/obj/Debug/net10.0/WebApplication1.Infrastructure.csproj.AssemblyReference.cache
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/obj/Debug/net10.0/WebApplication1.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/obj/Debug/net10.0/WebApplication1.Infrastructure.AssemblyInfoInputs.cache
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/obj/Debug/net10.0/WebApplication1.Infrastructure.AssemblyInfo.cs
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/obj/Debug/net10.0/WebApplication1.Infrastructure.csproj.CoreCompileInputs.cache
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/obj/Debug/net10.0/WebApplication1.Infrastructure.dll
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/obj/Debug/net10.0/refint/WebApplication1.Infrastructure.dll
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/obj/Debug/net10.0/WebApplication1.Infrastructure.pdb
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/obj/Debug/net10.0/WebApplication1.Infrastructure.genruntimeconfig.cache
+/home/toxid/Documents/WebApplication1/WebApplication1.Infrastructure/obj/Debug/net10.0/ref/WebApplication1.Infrastructure.dll

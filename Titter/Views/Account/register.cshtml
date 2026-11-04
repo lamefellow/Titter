@@ -1,0 +1,37 @@
+@model Titter.ViewModels.RegisterViewModel
+
+@{
+    Layout = "_Layout";
+    ViewData["HideAuth"] = true;
+    ViewData["Title"] = "register";
+}
+
+<h2>Register</h2>
+
+<form asp-action="Register" method="post">
+    <div class="form-field">
+        <label>Username</label>
+        <input asp-for="Username" />
+    </div>
+
+    <div class="form-field">
+        <label>Password</label>
+        <input asp-for="Password" type="password" />
+    </div>
+
+    <div class="form-submit">
+        <button type="submit">Sign Up</button>
+        
+        <label class="form-check">
+            <input asp-for="AcceptRules" required />
+            <span>
+                I agree to the
+                <a asp-controller="Pages" asp-action="Rules" target="_blank" rel="noopener">rules</a>
+                and
+                <a asp-controller="Pages" asp-action="Privacy" target="_blank" rel="noopener">privacy policy</a>.
+            </span>
+        </label>
+    </div>
+</form>
+
+<p>Already have an account? <a asp-action="Login">Log in!</a></p>

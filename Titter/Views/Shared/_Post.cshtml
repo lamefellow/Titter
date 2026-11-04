@@ -1,0 +1,58 @@
+@model Titter.Infrastructure.Models.Post
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<Titter.Infrastructure.Models.ApplicationUser> UserManager
+
+@{
+    var currentUserId = UserManager.GetUserId(User);
+    bool isLoggedIn = currentUserId != null;
+    bool userHasLiked = isLoggedIn && Model.Likes.Any(l => l.UserId == currentUserId);
+    bool isRoot = string.IsNullOrEmpty(Model.ParentPostId);
+    var opUserId = isRoot ? Model.UserId : Model.ParentPost?.UserId;
+    bool isOp = !isRoot && Model.UserId == opUserId;
+    bool isAuthor = isLoggedIn && Model.UserId == currentUserId;
+}
+
+<div class="post @(!isRoot ? "reply" : "")" id="post-@Model.Id">
+    <div class="post-header">
+        <div class="smol meta-row">
+            @if (Model.IsPinned) { <span class="badge">󰐃</span> }
+
+            @if (Model.Locked) { <span class="badge">󰌾</span> }
+
+            <a asp-controller="Account" asp-action="Profile" asp-route-username="@Model.User.UserName"><span class="badge">@(isOp ? "󰆥" : "") @Model.User.UserName</span></a>
+
+            @if (isLoggedIn)
+            {
+                <form asp-controller="Posts" asp-action="ToggleLike" asp-route-id="@Model.Id" method="post" class="inline-form"
+                      hx-post="@Url.Action("ToggleLike", "Posts", new { id = Model.Id })"
+                      hx-target="closest .post" hx-swap="outerHTML">
+                    <button type="submit" class="icon" aria-label="Like">
+                        <span class="badge-likes">@(userHasLiked ? "" : "") @Model.Likes.Count</span>
+                    </button>
+                </form>
+            }
+            else
+            {
+                <span class="badge-likes"> @Model.Likes.Count</span>
+            }
+        </div>
+    </div>
+
+    <div class="post-content"><markdown>@Model.Content</markdown></div>
+
+    <div class="smol">
+        @Model.CreatedAt.ToShortDateString()
+        @if (isRoot)
+        {
+            <span> | </span>
+            <a href="/posts/@Model.Id">Replies: @(Model.Replies?.Count ?? 0)</a>
+        }
+        @if (isAuthor)
+        {
+            <span> | </span>
+            <form class="inline-form" asp-controller="Posts" asp-action="Delete" asp-route-id="@Model.Id" method="post">
+                <button type="submit" class="icon" aria-label="Delete post"></button>
+            </form>
+        }
+    </div>
+</div>

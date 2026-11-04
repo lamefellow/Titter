@@ -1,0 +1,24 @@
+@model Titter.ViewModels.UserProfileViewModel
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = @Model.Username;
+
+    var page = (int)(ViewData["Page"] ?? 1);
+}
+
+<div class="posts-feed">
+    <div class="post">
+        <p>@Model.Username's profile</p>
+        <span class="smol">Account made in: @Model.CreatedAt.ToShortDateString()</span>
+    </div>
+    @foreach (var post in Model.Posts)
+    {
+        <partial name="_Post" model="post"/>
+    }
+</div>
+
+@if (Model.Posts.Count == 20)
+{
+    <a asp-action="Profile" asp-route-username="@Model.Username" asp-route-page="@(page + 1)">Load more</a>
+}
