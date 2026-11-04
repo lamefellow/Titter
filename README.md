@@ -1,6 +1,8 @@
 # Titter
 A small social network built with ASP.NET Core MVC
 
+![Titter](screenshot.png)
+
 ## Features
 - Accounts with ASP Identity
 - Posts with replies and markdown (via Markdig)
