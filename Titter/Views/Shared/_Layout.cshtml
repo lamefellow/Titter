@@ -6,15 +6,26 @@
 </head>
 <body>
 
-<partial name="Logo" />
+<div class="logo">
+    <img src="~/images/titter.png" alt="titter" width="64" height="64" />
+    <a asp-controller="posts" asp-action="index"><h1>titter</h1></a>
+    <nav class="site-links smol">
+        <a asp-controller="Pages" asp-action="Rules">Rules</a>
+        <a asp-controller="Pages" asp-action="Privacy">Privacy</a>
+    </nav>
+</div>
+<hr />
 
 @if (ViewData["HideAuth"] as bool? != true)
 {
     @if (User.Identity?.IsAuthenticated == true)
     {
         <div class="logged">
-            <p>Logged in as <span class="badge">   @User.Identity.Name</span></p>
-            <a href="#" onclick="document.getElementById('logout-form').submit(); return false;">Log out</a>
+            <p>Logged in as <span class="badge"> @User.Identity.Name</span></p>
+            <div>
+                <a href="#" onclick="document.getElementById('logout-form').submit(); return false;">Log out</a>
+                <a asp-controller="Account" asp-action="Settings" class="settings-icon"></a>
+            </div>
         </div>
         <form id="logout-form" asp-controller="Account" asp-action="Logout" method="post" style="display:none;"></form>
     }

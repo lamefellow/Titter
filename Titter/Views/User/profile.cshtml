@@ -1,17 +1,28 @@
 @model Titter.ViewModels.UserProfileViewModel
 
 @{
-    Layout = "_Layout";
-    ViewData["Title"] = @Model.Username;
-
+    ViewData["Title"] = Model.Username;
     var page = (int)(ViewData["Page"] ?? 1);
+    var isOwner = string.Equals(User.Identity?.Name, Model.Username, StringComparison.OrdinalIgnoreCase);
 }
 
 <div class="posts-feed">
-    <div class="post">
-        <p>@Model.Username's profile</p>
-        <span class="smol">Account made in: @Model.CreatedAt.ToShortDateString()</span>
+    <div class="profile">
+        <p style="margin: 0px;" class="smol">@Model.Username's profile</p>
+        @if (!string.IsNullOrWhiteSpace(Model.Bio))
+        {
+            <div class="bio">@Model.Bio</div>
+        }
+        <span class="smol">
+            Account made in: @Model.CreatedAt.ToShortDateString()
+            @if (isOwner)
+            {
+                <span> | </span>
+                <a asp-controller="Account" asp-action="Settings">Edit</a>
+            }
+        </span>
     </div>
+    
     @foreach (var post in Model.Posts)
     {
         <partial name="_Post" model="post"/>

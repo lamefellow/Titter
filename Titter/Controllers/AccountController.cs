@@ -93,4 +93,39 @@ public class AccountController : Controller
         await _signInManager.SignOutAsync();
         return RedirectToAction("Index", "Posts");
     }
+
+    [HttpGet("settings")]
+    [Authorize]
+    public async Task<IActionResult> Settings()
+    {
+        var user = await _userManager.GetUserAsync(User);
+        if (user == null) return Challenge();
+
+        return View(new AccountSettingsViewModel() { Bio = user.Bio });
+    }
+
+    [HttpPost("settings")]
+    [Authorize]
+    public async Task<IActionResult> Settings(AccountSettingsViewModel model)
+    {
+        var user = await _userManager.GetUserAsync(User);
+        if (user == null) return Challenge();
+        
+        if (!ModelState.IsValid)
+            return View(model);
+        
+        user.Bio = model.Bio;
+        var result = await _userManager.UpdateAsync(user);
+        
+        if (!result.Succeeded)
+        {
+            foreach (var error in result.Errors)
+            {
+                ModelState.AddModelError(string.Empty, error.Description);
+                return View(model);
+            }
+        }
+        
+        return RedirectToAction(nameof(Settings));
+    }
 }

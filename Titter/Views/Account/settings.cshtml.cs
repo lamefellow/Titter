@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Titter.Views.Shared;
+namespace Titter.Views.Account;
 
-public class Logo : PageModel
+public class settings : PageModel
 {
     public void OnGet()
     {

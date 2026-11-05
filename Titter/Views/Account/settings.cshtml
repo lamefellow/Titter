@@ -1,0 +1,19 @@
+@model Titter.ViewModels.AccountSettingsViewModel
+
+@{
+    ViewData["Title"] = "settings";
+}
+
+<p>Your bio</p>
+<form asp-action="Settings" method="post" class="composer">
+    <textarea asp-for="Bio" id="content" rows="2" maxlength="200"
+              placeholder="Say something about yourself."></textarea>
+    <div class="composer-footer">
+        <span id="counter" class="smol">200</span>
+        <button type="submit">Save</button>
+    </div>
+</form>
+
+@section Scripts {
+    <script src="~/js/composer.js" asp-append-version="true"></script>
+}

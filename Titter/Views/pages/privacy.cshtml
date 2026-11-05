@@ -1,37 +1,11 @@
-@model IEnumerable<Titter.Infrastructure.Models.Post>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>timeline | titter</title>
-    <link rel="stylesheet" href="~/css/site.css" />
-</head>
-<body>
-
-<partial name="Logo"/>
-
-@if (User.Identity?.IsAuthenticated == true)
-{
-    <div class="logged">
-        <p>Logged in as <span class="badge"> @User.Identity.Name</span></p>
-        <a href="#" onclick="document.getElementById('logout-form').submit(); return false;">Log out</a>
-    </div>
-    <form id="logout-form" asp-controller="Account" asp-action="Logout" method="post" style="display:none;"></form>
-}
-else
-{
-    <div class="logged">
-        <p>You aren't authenticated.</p>
-        <p><a asp-controller="Account" asp-action="Login">Log in</a></p>
-    </div>
+@{
+    ViewData["Title"] = "privacy";
 }
 
 <markdown>
     # Privacy policy
     Titter only collects your username, a hash of your password and your posts together with likes.
     There are no trackers or analytics, but the website allows for hotlinking images through markdown.
-    
+
     In case of privacy concerns contact me at: lamefellow@cock.li
 </markdown>
-</body>
-</html>

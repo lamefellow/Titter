@@ -1,29 +1,7 @@
 @model IEnumerable<Titter.Infrastructure.Models.Post>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>timeline | titter</title>
-    <link rel="stylesheet" href="~/css/site.css" />
-</head>
-<body>
-
-<partial name="Logo"/>
-
-@if (User.Identity?.IsAuthenticated == true)
-{
-    <div class="logged">
-        <p>Logged in as <span class="badge"> @User.Identity.Name</span></p>
-        <a href="#" onclick="document.getElementById('logout-form').submit(); return false;">Log out</a>
-    </div>
-    <form id="logout-form" asp-controller="Account" asp-action="Logout" method="post" style="display:none;"></form>
-}
-else
-{
-    <div class="logged">
-        <p>You aren't authenticated.</p>
-        <p><a asp-controller="Account" asp-action="Login">Log in</a></p>
-    </div>
+@{
+    ViewData["Title"] = "rules";
 }
 
 <markdown>
@@ -31,5 +9,3 @@ else
     Do not get the yourself, or the website in trouble and be a normal human being, this is not a cesspool.
     Report illegal content to my inbox: lamefellow@cock.li
 </markdown>
-</body>
-</html>

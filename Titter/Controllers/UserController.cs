@@ -32,7 +32,8 @@ public class UserController : Controller
         {
             Username = user.UserName,
             CreatedAt = user.CreatedAt,
-            Posts = userPosts
+            Posts = userPosts,
+            Bio = user.Bio
         };
 
         ViewData["Page"] = page;
