@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Titter.Views.Account;
+namespace Titter.Views.User;
 
 public class profile : PageModel
 {

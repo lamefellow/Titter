@@ -19,7 +19,7 @@
 
             @if (Model.Locked) { <span class="badge">󰌾</span> }
 
-            <a asp-controller="Account" asp-action="Profile" asp-route-username="@Model.User.UserName"><span class="badge">@(isOp ? "󰆥" : "") @Model.User.UserName</span></a>
+            <a asp-controller="User" asp-action="Profile" asp-route-username="@Model.User.UserName"><span class="badge">@(isOp ? "󰆥" : "") @Model.User.UserName</span></a>
 
             @if (isLoggedIn)
             {
